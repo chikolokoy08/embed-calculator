@@ -1,0 +1,211 @@
+#emcal-admin pre {
+	background-color: #efefef !important;
+	padding: 15px !important;
+	white-space: normal !important;
+
+}
+
+#emcal-admin h3 {
+	color: #3a5795;
+	line-height: 23px;
+}
+
+#emcal-admin input[type="text"], #emcal-admin select {
+	padding: 8px;
+	border-radius: 2px;
+}
+
+#emcal-admin select {
+	height: 37px;
+}
+
+#emcal-admin textarea {
+	width: 510px;
+	max-width: 510px;
+}
+
+#emcal-admin form {
+	padding: 20px;
+	background-color: #fff;
+	margin-top: 10px;	
+}
+
+#emcal-admin .label {
+	font-weight: bold;
+	color: #133783;
+}
+
+#emcal-admin .table {
+	width: 100%;
+}
+
+#emcal-admin .table tr td {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+#emcal-admin .table {
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+#emcal-admin #gopro {
+	text-align: center;
+	margin-top: 20px;
+	background-color: #3a5795;
+}
+
+#emcal-admin #gopro:hover {
+	background-color: #133783;
+	color: #fff;
+}
+
+#emcal-admin a {
+	text-decoration: none;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 14px;
+	background-color: #fbb450;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+}
+
+.btn:hover {
+	background-color: #FAA227;
+}
+
+#emcal-admin .disabled {
+	background-color: #ddd !important;
+	color: #fff !important;
+}
+
+#emcal-admin-main, #emcal-admin-side {
+	float: left;
+	display: block;
+}
+
+#emcal-admin-main {
+	width: 40%;
+	padding-right: 2%;
+	border-right: 1px dashed #ddd;
+}
+
+#emcal-admin-side {
+	width: 50%;
+	padding-left: 2%;
+}
+
+.emcal-admin-clearfix {
+	clear: both;
+}
+
+#emcal-authorbox {
+	padding: 13px;
+	background-color: #fafafa;
+}
+
+#emcal-authorbox #jumpstartlogo {
+	width: 260px;
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+
+#emcal-authorbox h3 {
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#emcal-authorbox #jumpstartlogo img {
+	width: 100%;
+}
+
+#emcal-authorbox #details {
+	float: left;
+}
+
+#emcal-authorbox #details p {
+	margin: 0px;
+}
+
+#emcal-admin .tabs {
+	float: left;
+	display: block;
+	width: 100%;
+	margin: 0px;
+}
+
+#emcal-admin .tabs li {
+	float: left;
+	margin: 0px;
+	margin-right: 3px;
+}
+
+#emcal-admin .tabs li a {
+	display: block;
+	padding: 10px;
+}
+
+#emcal-admin .tabs li a.active, #emcal-admin .tabs li a:hover {
+	background-color: #fbb450;
+	color: #fff;
+}
+
+#emcal-admin .tabs-wrapper {
+	clear: both;
+}
+
+#emcal-admin .tabs-wrapper .tabs-wrap {
+	display: none;
+	border: 1px solid #fbb450;
+	padding: 20px;
+}
+
+#emcal-admin .tabs-wrapper .tabs-wrap:first-child {
+	display: block;
+}
+
+/*Font Awesome*/
+.source-sans-pro {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif !important;
+}
+
+.pt-sans {
+	font-family: 'PT Sans', sans-serif !important;
+}
+
+.slabo {
+	font-family: 'Slabo 27px', serif !important;
+}
+
+.opan-sans {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.oswald {
+	font-family: 'Oswald', sans-serif !important;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.roboto-condensed {
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.montserrat {
+	font-family: 'Montserrat', sans-serif !important;
+}
