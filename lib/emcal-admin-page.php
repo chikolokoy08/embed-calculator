@@ -11,7 +11,7 @@ function emcal_options_page(){
 	ob_start(); ?>
 	
 	<div class="wrap" id="emcal-admin">
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lato|PT+Sans|Slabo+27px|Open+Sans|Oswald|Roboto|Roboto+Condensed|Montserrat' 
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lato|PT+Sans|Slabo+27px|Open+Sans|Oswald|Roboto|Roboto+Condensed|Montserrat' />
 		<h2><?php _e('Embed Calculator Setup', 'emcal_domain'); ?></h2>
 		<form method="post" action="options.php" id="emcal-admin-main">
 			
@@ -57,13 +57,12 @@ function emcal_options_page(){
 					<p>
 						<input class="regular-text" type="text" id="emcal_settings[emcalSecondRangeTitle]" name="emcal_settings[emcalSecondRangeTitle]" placeholder="Duration" value="<?php echo $emcal_options['emcalSecondRangeTitle']; ?>" />
 					</p>				
-					<p class="label"><?php _e('DATETIME Unit', 'emcal_domain'); ?></p>
+					<p class="label"><?php _e('DateTime Unit', 'emcal_domain'); ?></p>
 					<p>
 						<select name="emcal_settings[emcalDateTimeUnit]">
 							<option value="year" <?php if ( $emcal_options['emcalDateTimeUnit'] =="year" ) echo 'selected="selected"'; ?>>Year</option>
 						    <option value="month" <?php if ( $emcal_options['emcalDateTimeUnit'] =="month" ) echo 'selected="selected"'; ?>>Month</option>
 						    <option value="week" <?php if ( $emcal_options['emcalDateTimeUnit'] == "week" ) echo 'selected="selected"'; ?>>Week</option>
-						    <option value="day" <?php if ( $emcal_options['emcalDateTimeUnit'] == "day" ) echo 'selected="selected"'; ?>>Day</option>
 						</select>	
 					</p>
 					<p class="label"><?php _e('Minimum Unit', 'emcal_domain'); ?></p>
@@ -80,7 +79,6 @@ function emcal_options_page(){
 							<option value="year" <?php if ( $emcal_options['emcalDateTimeUnitPresentation'] =="year" ) echo 'selected="selected"'; ?>>Year</option>
 						    <option value="month" <?php if ( $emcal_options['emcalDateTimeUnitPresentation'] =="month" ) echo 'selected="selected"'; ?>>Month</option>
 						    <option value="week" <?php if ( $emcal_options['emcalDateTimeUnitPresentation'] == "week" ) echo 'selected="selected"'; ?>>Week</option>
-						    <option value="day" <?php if ( $emcal_options['emcalDateTimeUnitPresentation'] == "day" ) echo 'selected="selected"'; ?>>Day</option>
 						</select>	
 					</p>
 					<p class="label"><?php _e('Interest Rate (for loan conversion usage)', 'emcal_domain'); ?></p>
